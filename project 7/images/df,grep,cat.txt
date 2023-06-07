@@ -1,0 +1,70 @@
+   0 cat redme.txt
+   1 cat readme.txt
+   2 clear
+   3 date
+   4 date +'%H'
+   5 date +'%H:%M'
+   6 date +'%H:%M_%S'
+   7 date +'%D'
+   8 echo hello
+   9 echo "hello"
+  10 clear
+  11 echo"hello"
+  12 echo "hello"
+  13 echo "hello" > file.txt
+  14 ls
+  15 ls -l
+  16 cat file.txt
+  17 cat readme.txt
+  18 echo "hello" > readme.txt
+  19 ls -l
+  20 > readme.txt
+  21 ls
+  22 ls -l
+  23 df 
+  24 df
+  25 df -h
+  26 df -h > readme.txt
+  27 cat readme.txt
+  28 date >> readme.txt
+  29 cat readme.txt
+  30 echo "hello" >> readme.txt
+  31 cat readme.txt
+  32 cat file.txt >>readme.txt
+  33 cat reamde.txt
+  34 cat readme.txt
+  35 df -h | wc
+  36 df -h | wc -l
+  37 cat bench.py | wc -ch
+  38 cat /etc/group | wc
+  39 cat /etc/group | tail
+  40 cat /etc/group | tail -5
+  41 cat /etc/group | tail -3
+  42 df -h |tail -2
+  43 clear
+  44 cat /etc/group | head -3
+  45 cat /etc/group | tail -2 |head -1
+  46 df -h
+  47 df -h | head 2
+  48 df -h | head -1 | tail -1
+  49 df -h | head -2 | tail -1
+  50 df -h |grep 7
+  51 df -h |grep -w | grep 4.9 |awk
+  52 df -h |grep -w | grep 4.9
+  53 df -h |grep -w | grep 4.9|
+  54 cd
+  55 df -h |grep 4.9
+  56 df -h |grep 4.9|awk 'print $5'
+  57 df -h |grep 4.9|awk '{print $5}'
+  58 df -h |grep 4.9|awk '{print $5}' | sed 's/%/rinat/'
+  59 df -h |grep 4.9|awk '{print $5}' | sed 's/%//'
+  60 df -h | sed 's/dev/renat/g'
+  61 cat bench.py | sed 's/return/out/g' bench2.py
+  62 cat bench.py | sed 's/return/out/g' > bench2.py
+  63 ls -l /opt/
+  64 ls -l /opt/ >> redme.txt
+  65 cat readme.txt
+  66 ls -l /opt/ >> redme.txt
+  67 cat readme.txt
+  68 df -h | grep -o 47
+  69 history > history.txt

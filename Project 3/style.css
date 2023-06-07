@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+h1:hover {
+    color: brown;
+}
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    /* align-items: flex-end; */
+    padding: 30px;
+    background-color: rgb(234, 234, 234);
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px black;
+}
+.item {
+    width: calc(50% - 20px);
+    /* height: 250px; */
+    aspect-ratio: 16/9;
+    background-color:rgb(143, 188, 155);
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.item:hover {
+    transform: scale(1.05)rotate(-5deg);
+}
+.item-1 {
+    background-image: url(./images/doroga_asfalt_razmetka_130996_1600x900.jpg);
+}
+.item-2 {
+    background-image: url(./images/les_tuman_derevia_126479_300x168.jpg);
+}
+.item-3 {
+    background-image: url(./images/les_tuman_derevia_132037_1600x900.jpg);
+}
+.item-4 {
+    background-image: url(./images/osen_les_derevia_129892_300x168.jpg);
+}
+.item-5 {
+    background-image: url(./images/osen_les_park_128379_300x168.jpg);
+}
+.item-6 {
+    background-image: url(./images/pejzazh_gory_solntse_140434_1600x900.jpg);
+}
+.item-7 {
+    background-image: url(./images/zvezdnoe_nebo_lodka_otrazhenie_125803_1600x900.jpg);
+}
+.item-8 {
+    background-image: url(./images/zvezdnoe_nebo_oblaka_zakat_120716_1600x900.jpg);
+}
